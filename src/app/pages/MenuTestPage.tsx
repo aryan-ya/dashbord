@@ -49,7 +49,7 @@ const MenuTestPage: FC = () => {
                       data-kt-menu-placement='right-start'
                       className='menu-item'
                     >
-                      <span className='menu-link py-3'>
+                       <span className='menu-link py-3'>
                         <span className='menu-icon'>
                           <span className=''>
                             <SVG src={toAbsoluteUrl('media/logos/default-small.svg')} />
@@ -57,7 +57,7 @@ const MenuTestPage: FC = () => {
                         </span>
                         <span className='menu-title'>Profile</span>
                         <span className='menu-arrow'></span>
-                      </span>
+                      </span> 
                       <div
                         className='menu-sub menu-sub-accordion menu-sub-lg-dropdown menu-active-bg py-4 w-100 w-lg-225px'
                         style={{margin: '0px'}}
@@ -221,7 +221,7 @@ const MenuTestPage: FC = () => {
                             </span>
                             <span className='menu-title'>Profile -</span>
                             <span className='menu-arrow'></span>
-                          </span>
+                          </span> 
                           <div className='menu-sub menu-sub-accordion menu-sub-lg-dropdown menu-active-bg py-4 w-100 w-lg-225px'>
                             <div className='menu-item'>
                               <a

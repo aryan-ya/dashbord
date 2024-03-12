@@ -14,82 +14,79 @@ const SidebarMenuMain = () => {
         title={intl.formatMessage({id: 'MENU.DASHBOARD'})}
         fontIcon='bi-app-indicator'
       />
-      <SidebarMenuItem to='/builder' icon='switch' title='Layout Builder' fontIcon='bi-layers' />
+      {/* <SidebarMenuItem to='/builder' icon='switch' title='Layout Builder' fontIcon='bi-layers' /> */}
       <div className='menu-item'>
         <div className='menu-content pt-8 pb-2'>
           <span className='menu-section text-muted text-uppercase fs-8 ls-1'></span>
         </div>
       </div>
+
       <SidebarMenuItemWithSub
         to='/crafted/pages'
         title='Service'
         fontIcon='bi-archive'
         icon='element-plus'
       >
-        <SidebarMenuItemWithSub to='/crafted/pages/profile' title='Add Service' hasBullet={true}>
+        {/* <SidebarMenuItemWithSub to='/apps/user-management/users' title='Add Post' hasBullet={true}> */}
           {/* <SidebarMenuItem to='/crafted/pages/profile/overview' title='View Service' hasBullet={true} /> */}
           {/* <SidebarMenuItem to='/crafted/pages/profile/projects' title='Projects' hasBullet={true} /> */}
           <SidebarMenuItem
-            to='/crafted/pages/profile/campaigns'
-            title='Campaigns'
-            hasBullet={true}
-          />
-          <SidebarMenuItem
-            to='/crafted/pages/profile/documents'
-            title='Documents'
-            hasBullet={true}
-          />
-          <SidebarMenuItem
-            to='/crafted/pages/profile/connections'
-            title='Connections'
-            hasBullet={true}
-          />
-        </SidebarMenuItemWithSub>
+        to='/apps/user-management/users'
+        icon='abstract-28'
+        title='Add Post'
+        fontIcon='bi-layers'
+      />
+           <SidebarMenuItem
+        to='/apps/user-management/users'
+        icon='abstract-28'
+        title='View Post'
+        fontIcon='bi-layers'
+      />
+        
+        {/* </SidebarMenuItemWithSub> */}
 
-        <SidebarMenuItemWithSub to='/crafted/pages/wizards' title='View Service' hasBullet={true}>
-          <SidebarMenuItem
+        {/* <SidebarMenuItemWithSub to='/crafted/pages/wizards' title='View Post' hasBullet={true}> */}
+          {/* <SidebarMenuItem
             to='/crafted/pages/wizards/horizontal'
             title='Horizontal'
             hasBullet={true}
           />
-          <SidebarMenuItem to='/crafted/pages/wizards/vertical' title='Vertical' hasBullet={true} />
-        </SidebarMenuItemWithSub>
+          <SidebarMenuItem to='/crafted/pages/wizards/vertical' title='Vertical' hasBullet={true} /> */}
+        {/* </SidebarMenuItemWithSub> */}
       </SidebarMenuItemWithSub>
-
+   
       <SidebarMenuItemWithSub
         to='/crafted/pages'
         title='Blog Management'
         fontIcon='bi-archive'
         icon='element-plus'
       >
-        <SidebarMenuItemWithSub to='/crafted/pages/profile' title='Add Post' hasBullet={true}>
+        {/* <SidebarMenuItemWithSub to='/apps/user-management/users' title='Add Post' hasBullet={true}> */}
           {/* <SidebarMenuItem to='/crafted/pages/profile/overview' title='View Service' hasBullet={true} /> */}
           {/* <SidebarMenuItem to='/crafted/pages/profile/projects' title='Projects' hasBullet={true} /> */}
           <SidebarMenuItem
-            to='/crafted/pages/profile/campaigns'
-            title='Campaigns'
-            hasBullet={true}
-          />
-          <SidebarMenuItem
-            to='/crafted/pages/profile/documents'
-            title='Documents'
-            hasBullet={true}
-          />
-          <SidebarMenuItem
-            to='/crafted/pages/profile/connections'
-            title='Connections'
-            hasBullet={true}
-          />
-        </SidebarMenuItemWithSub>
+        to='/apps/user-management/users'
+        icon='abstract-28'
+        title='Add Post'
+        fontIcon='bi-layers'
+      />
+           <SidebarMenuItem
+        to='/apps/user-management/users'
+        icon='abstract-28'
+        title='View Post'
+        fontIcon='bi-layers'
+      />
+        
+        {/* </SidebarMenuItemWithSub> */}
 
-        <SidebarMenuItemWithSub to='/crafted/pages/wizards' title='View Post' hasBullet={true}>
-          <SidebarMenuItem
+        {/* <SidebarMenuItemWithSub to='/crafted/pages/wizards' title='View Post' hasBullet={true}> */}
+          {/* <SidebarMenuItem
             to='/crafted/pages/wizards/horizontal'
             title='Horizontal'
             hasBullet={true}
           />
-          <SidebarMenuItem to='/crafted/pages/wizards/vertical' title='Vertical' hasBullet={true} />
-        </SidebarMenuItemWithSub>
+          <SidebarMenuItem to='/crafted/pages/wizards/vertical' title='Vertical' hasBullet={true} /> */}
+        {/* </SidebarMenuItemWithSub> */}
       </SidebarMenuItemWithSub>
       {/* <SidebarMenuItemWithSub
         to='/crafted/accounts'
@@ -117,11 +114,11 @@ const SidebarMenuMain = () => {
         <SidebarMenuItem to='/crafted/widgets/tables' title='Tables' hasBullet={true} />
         <SidebarMenuItem to='/crafted/widgets/feeds' title='Feeds' hasBullet={true} />
       </SidebarMenuItemWithSub> */}
-      <div className='menu-item'>
+      {/* <div className='menu-item'>
         <div className='menu-content pt-8 pb-2'>
           <span className='menu-section text-muted text-uppercase fs-8 ls-1'>Apps</span>
         </div>
-      </div>
+      </div> */}
       {/* <SidebarMenuItemWithSub
         to='/apps/chat'
         title='Chat'
@@ -132,13 +129,8 @@ const SidebarMenuMain = () => {
         <SidebarMenuItem to='/apps/chat/group-chat' title='Group Chart' hasBullet={true} />
         <SidebarMenuItem to='/apps/chat/drawer-chat' title='Drawer Chart' hasBullet={true} />
       </SidebarMenuItemWithSub> */}
-      <SidebarMenuItem
-        to='/apps/user-management/users'
-        icon='abstract-28'
-        title='User management'
-        fontIcon='bi-layers'
-      />
-      <div className='menu-item'>
+  
+      {/* <div className='menu-item'>
         <a
           target='_blank'
           className='menu-link'
@@ -149,7 +141,7 @@ const SidebarMenuMain = () => {
           </span>
           <span className='menu-title'>Changelog {import.meta.env.VITE_APP_VERSION}</span>
         </a>
-      </div>
+      </div> */}
     </>
   )
 }

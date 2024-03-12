@@ -33,13 +33,13 @@ const SidebarMenuMain = () => {
           <SidebarMenuItem
         to='/apps/user-management/users'
         icon='abstract-28'
-        title='Add Post'
+        title='Add Service'
         fontIcon='bi-layers'
       />
            <SidebarMenuItem
         to='/apps/user-management/users'
         icon='abstract-28'
-        title='View Post'
+        title='View Service'
         fontIcon='bi-layers'
       />
         

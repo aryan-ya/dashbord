@@ -9,7 +9,7 @@ const SidebarMenuMain = () => {
   return (
     <>
       <SidebarMenuItem
-        to='/dashboard'
+        to='/crafted/pages/wizards/horizontal'
         icon='element-11'
         title={intl.formatMessage({id: 'MENU.DASHBOARD'})}
         fontIcon='bi-app-indicator'
@@ -37,7 +37,7 @@ const SidebarMenuMain = () => {
         fontIcon='bi-layers'
       />
            <SidebarMenuItem
-        to='/apps/user-management/users'
+        to='/crafted/widgets/tables/Table'
         icon='abstract-28'
         title='View Service'
         fontIcon='bi-layers'
@@ -56,7 +56,7 @@ const SidebarMenuMain = () => {
       </SidebarMenuItemWithSub>
    
       <SidebarMenuItemWithSub
-        to='/crafted/pages'
+        to='/dashboard'
         title='Blog Management'
         fontIcon='bi-archive'
         icon='element-plus'
@@ -65,13 +65,13 @@ const SidebarMenuMain = () => {
           {/* <SidebarMenuItem to='/crafted/pages/profile/overview' title='View Service' hasBullet={true} /> */}
           {/* <SidebarMenuItem to='/crafted/pages/profile/projects' title='Projects' hasBullet={true} /> */}
           <SidebarMenuItem
-        to='/apps/user-management/users'
+        to='/dashboard'
         icon='abstract-28'
         title='Add Post'
         fontIcon='bi-layers'
       />
            <SidebarMenuItem
-        to='/apps/user-management/users'
+        to='/dashboard'
         icon='abstract-28'
         title='View Post'
         fontIcon='bi-layers'

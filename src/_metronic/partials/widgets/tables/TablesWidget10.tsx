@@ -12,8 +12,8 @@ const TablesWidget10: FC<Props> = ({className}) => {
       {/* begin::Header */}
       <div className='card-header border-0 pt-5'>
         <h3 className='card-title align-items-start flex-column'>
-          <span className='card-label fw-bold fs-3 mb-1'>Members Statistics</span>
-          <span className='text-muted mt-1 fw-semibold fs-7'>Over 500 members</span>
+          <span className='card-label fw-bold fs-3 mb-1'>Blog Management</span>
+          <span className='text-muted mt-1 fw-semibold fs-7'>Add Blog Management</span>
         </h3>
         <div
           className='card-toolbar'
@@ -29,7 +29,7 @@ const TablesWidget10: FC<Props> = ({className}) => {
             // data-bs-target='#kt_modal_invite_friends'
           >
             <KTIcon iconName='plus' className='fs-3' />
-            New Member
+            Add Blog
           </a>
         </div>
       </div>
@@ -54,8 +54,8 @@ const TablesWidget10: FC<Props> = ({className}) => {
                     />
                   </div>
                 </th>
-                <th className='min-w-150px'>Authors</th>
-                <th className='min-w-140px'>Company</th>
+                <th className='min-w-150px'>Blog</th>
+                <th className='min-w-140px'>Topic</th>
                 <th className='min-w-120px'>Progress</th>
                 <th className='min-w-100px text-end'>Actions</th>
               </tr>
@@ -71,9 +71,9 @@ const TablesWidget10: FC<Props> = ({className}) => {
                 </td>
                 <td>
                   <div className='d-flex align-items-center'>
-                    <div className='symbol symbol-45px me-5'>
+                    {/* <div className='symbol symbol-45px me-5'>
                       <img src={toAbsoluteUrl('media/avatars/300-14.jpg')} alt='' />
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-start flex-column'>
                       <a href='#' className='text-gray-900 fw-bold text-hover-primary fs-6'>
                         Ana Simmons
@@ -137,9 +137,9 @@ const TablesWidget10: FC<Props> = ({className}) => {
                 </td>
                 <td>
                   <div className='d-flex align-items-center'>
-                    <div className='symbol symbol-45px me-5'>
+                    {/* <div className='symbol symbol-45px me-5'>
                       <img src={toAbsoluteUrl('media/avatars/300-2.jpg')} alt='' />
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-start flex-column'>
                       <a href='#' className='text-gray-900 fw-bold text-hover-primary fs-6'>
                         Jessie Clarcson
@@ -203,9 +203,9 @@ const TablesWidget10: FC<Props> = ({className}) => {
                 </td>
                 <td>
                   <div className='d-flex align-items-center'>
-                    <div className='symbol symbol-45px me-5'>
+                    {/* <div className='symbol symbol-45px me-5'>
                       <img src={toAbsoluteUrl('media/avatars/300-5.jpg')} alt='' />
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-start flex-column'>
                       <a href='#' className='text-gray-900 fw-bold text-hover-primary fs-6'>
                         Lebron Wayde
@@ -269,9 +269,9 @@ const TablesWidget10: FC<Props> = ({className}) => {
                 </td>
                 <td>
                   <div className='d-flex align-items-center'>
-                    <div className='symbol symbol-45px me-5'>
+                    {/* <div className='symbol symbol-45px me-5'>
                       <img src={toAbsoluteUrl('media/avatars/300-20.jpg')} alt='' />
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-start flex-column'>
                       <a href='#' className='text-gray-900 fw-bold text-hover-primary fs-6'>
                         Natali Goodwin
@@ -333,9 +333,9 @@ const TablesWidget10: FC<Props> = ({className}) => {
                 </td>
                 <td>
                   <div className='d-flex align-items-center'>
-                    <div className='symbol symbol-45px me-5'>
+                    {/* <div className='symbol symbol-45px me-5'>
                       <img src={toAbsoluteUrl('media/avatars/300-23.jpg')} alt='' />
-                    </div>
+                    </div> */}
                     <div className='d-flex justify-content-start flex-column'>
                       <a href='#' className='text-gray-900 fw-bold text-hover-primary fs-6'>
                         Kevin Leonard
